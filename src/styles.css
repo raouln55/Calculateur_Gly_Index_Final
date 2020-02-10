@@ -1,1 +1,209 @@
-/* You can add global styles to this file, and also import other style files */
+app-top-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+app-top-bar h1 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    background-color: rgb(0, 81, 255);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+app-top-bar nav {
+    background-color: rgb(0, 102, 255);
+}
+
+app-top-bar h1 a {
+    text-decoration: none;
+    color: white;
+}
+
+app-top-bar nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-inline-start: 0;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+app-top-bar nav ul li {
+    list-style-type: none;
+    margin: 12px;
+}
+
+app-top-bar nav ul li a {
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+app-aliment-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+app-aliment-list div h3 {
+    font-size: 25px;
+}
+
+app-aliment-list div {
+    background-color: rgb(167, 218, 255);
+    padding-bottom: 20px;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+app-aliment-list form div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    width: 50%;
+}
+
+app-aliment-list form div input {
+    width: 300px;
+}
+
+app-aliment-list form button {
+    border-radius: 5px;
+    background-color: rgb(240, 240, 240);
+}
+
+app-aliment-list table {
+    border: thin solid #000000;
+    width: fit-content;
+    border-collapse: collapse;
+    margin: auto;
+    }
+
+app-aliment-list td, th {
+    border: thin solid #6495ed;
+}
+
+app-aliment-list table tr th {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+app-aliment-list table tr td {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+app-aliment-list table tr td button {
+    border-radius: 5px;
+    background-color: rgb(240, 240, 240);
+}
+
+app-calculator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+app-calculator div {
+    background-color: rgb(167, 218, 255);
+    padding-bottom: 20px;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+app-calculator div form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+}
+
+app-calculator div span {
+    color: goldenrod;
+    font-size: 35px;
+}
+
+app-calculator div h3 {
+    font-size: 25px;
+}
+
+app-calculator div form div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+app-calculator div form button {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    background-color: rgb(240, 240, 240);
+    margin: auto;
+}
+
+app-calculator div form div label {
+    padding-right: 15px;
+}
+
+app-calculator div form div select {
+    width: fit-content;
+}
+
+app-calculator div form div input {
+    width: 150px;
+}
+
+app-calculator div table {
+    border: thin solid #000000;
+    width: fit-content;
+    border-collapse: collapse;
+    margin: auto;
+    }
+
+app-calculator td, th {
+    border: thin solid #6495ed;
+}
+
+app-calculator div table tr th {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+app-calculator div table tr td {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+app-calculator div table tr td button {
+    border-radius: 5px;
+    background-color: rgb(240, 240, 240);
+}
+
+body {
+    background-color: rgb(230, 243, 252);
+}
